@@ -10,13 +10,13 @@
     user-select: none;
 }
 
-.questionset {
+.quiz .questionset {
 	border: 2px solid #688B6A;
 	margin: 0% 0px 5% 0px;
 	padding: 1%;
 }
 
-.title, .question, .answer, .result {
+.quiz .title, .quiz .question, .quiz .answer, .quiz .result {
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.2);
 	background-blend-mode: overlay;
@@ -28,26 +28,26 @@
     overflow: hidden;
 }
 
-.title {
+.quiz .title {
     cursor: pointer;
 }
 
-.title, .result {
+.quiz .title, .quiz .result {
 	height: 250px;
 	margin: 0% 0px 5% 0px;
 }
 
-.result {
+.quiz .result {
 	font-style: italic;
 	display: none;
 }
 
-.question {
+.quiz .question {
 	height: 200px;
 	margin-bottom: 3%;
 }
 
-.answer {
+.quiz .answer {
 	height: 130px;
 	text-align: right;
 	margin-top: 1%;
@@ -55,35 +55,35 @@
     cursor: pointer;
 }
 
-.questionset.half .answer {
+.quiz .questionset.half .answer {
 	float: left;
 	width: 49%;
 	margin-right: 1%;
 }
 
-.questionset.third .answer {
+.quiz .questionset.third .answer {
 	float: left;
 	width: 32.3%;
 	margin-right: 1%;
 }
 
-.answer:hover {
+.quiz .answer:hover {
 	opacity: 0.7
 }
 
-.answer.deselected:hover {
+.quiz .answer.deselected:hover {
 	opacity: 0.5;
 }
 
-.answer.selected {
+.quiz .answer.selected {
 	opacity: 1;
 }
 
-.answer.deselected {
+.quiz .answer.deselected {
 	opacity: 0.3
 }
 
-.title h1, .question h1, .answer h1, .result h1, .title h2, .result p {
+.quiz .title h1, .quiz .question h1, .quiz .answer h1, .quiz .result h1, .quiz .title h2, .quiz .result p {
 	display: inline-block;
 	margin: 10px;
 	padding: 12px 16px;
@@ -91,47 +91,47 @@
 	background-color: rgba(0,0,0,0.5);
 }
 
-.title h1, .result h1 {
+.quiz .title h1, .quiz .result h1 {
 	font-size: 25px;
 }
 
-.title h2 {
+.quiz .title h2 {
 	font-size: 15px;
 	margin-top: 0px;
 }
 
-.question h1 {
+.quiz .question h1 {
 	font-size: 18px;
 	font-style: italic;
 }
 
-.answer h1 {
+.quiz .answer h1 {
 	font-size: 14px;
 	text-transform: uppercase;
 }
 
-.answer.text {
+.quiz .answer.text {
 	background-color: #688B6A;
 	text-align: center;
 	line-height: 130px;
 }
 
-.answer.text h1 {
+.quiz .answer.text h1 {
 	background-color: transparent;
 	margin: 0;
 	padding: 0;
 }
 
-.result p {
+.quiz .result p {
 	margin-top: 0px;
 }
 
 
-.quizbody {
+.quiz .quizbody {
 	display: none;
 }
 
-.anotherquiz {
+.quiz .anotherquiz {
 	font-size: 12px;
 	padding: 5px 18px !important;
 	font-style: normal;
@@ -139,6 +139,6 @@
 	font-weight: bold;
 }
 
-.clear {
+.quiz .clear {
 	clear: both;
 }
