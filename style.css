@@ -58,13 +58,13 @@
 .quiz .questionset.half .answer {
     float: left;
     width: 49%;
-    margin-right: 1%;
+    margin: 0 0.5%;
 }
 
 .quiz .questionset.third .answer {
     float: left;
     width: 32.3%;
-    margin-right: 1%;
+    margin: 0 0.5%;
 }
 
 .quiz .answer:hover {
