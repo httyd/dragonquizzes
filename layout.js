@@ -21,6 +21,11 @@ function makequestion(title, image) {
 }
 
 function makeanswer(title, image, result, points) {
+
+    if (points === undefined) {
+        points = 1;
+    }
+
     var string = "<div data-result='" + result + "' data-points='" + points + "'";
 
     if (image !== undefined) {
